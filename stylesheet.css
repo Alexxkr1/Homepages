@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
     background-color: lightblue;
   }
@@ -13,13 +18,18 @@ body {
   }
 
 
-div{
+
+
+.NavBar{
   background-color: blueviolet;
+  height: 100px;
+  width: auto;
 } 
 
 div ul {
+  float: right;
   list-style-type: none;
-  
+  padding: 500px;
 }
 
 div ul li {
@@ -33,4 +43,6 @@ div li a {
   text-decoration: none;
 }
 
-
+table, th, td {
+  border:1px solid black;
+}
